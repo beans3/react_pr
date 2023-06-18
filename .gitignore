@@ -1,6 +1,20 @@
-composer.phar
-/vendor/
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
 
-# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/react
